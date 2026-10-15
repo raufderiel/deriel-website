@@ -1,4 +1,19 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://raufderiel.github.io/'
 locale = 'en-us'
-title = 'My New Hugo Project'
+title = 'Rauf Deriel'
 theme = 'ananke'
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = "1"
+[[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+[params]
+    background_color_class = "none"
+    site_logo = "/images/Profile.png"
+[params.ananke]
+    custom_css = ["css/custom.css"]
+[markup.goldmark.renderer]
+    unsafe = true

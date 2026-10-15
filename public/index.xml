@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>My New Hugo Project</title>
+		<title>Welcome on Rauf Deriel</title>
 		<link>http://localhost:1313/</link>
-		<description>Recent content on My New Hugo Project</description>
+		<description>Recent content in Welcome on Rauf Deriel</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
 		
 		
 		
+			<lastBuildDate>Thu, 15 Oct 2026 00:00:00 +0000</lastBuildDate>
+		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>About</title>
+				<link>http://localhost:1313/about/</link>
+				<pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/about/</guid>
+				<description>&lt;div style=&#34;display: flex; align-items: center; gap: 10px; width: 100%&#34; class=&#34;fade-preview&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/picture.png&#34; id=&#34;profile&#34; title=&#34;Muslim EduFest — ICE BSD, Tangerang (29/08/26)&#34;&gt;&#xA;    &lt;div class=&#34;card&#34;&gt;&#xA;        &lt;div class=&#34;namerow&#34;&gt;&#xA;            &lt;h2&gt;Rauf Deriel&lt;/h2&gt;&#xA;            &lt;div class=&#34;smallcard&#34;&gt;&#xA;                &lt;span&gt;Indonesian Salafi student of knowledge, preacher, and content creator&lt;/span&gt;&#xA;            &lt;/div&gt;&#xA;        &lt;/div&gt;&#xA;        &lt;strong&gt;Born&lt;/strong&gt; 01 June 2010&lt;br&gt;&#xA;        &lt;strong&gt;Residence&lt;/strong&gt; Serang, Indonesia&lt;br&gt;&#xA;        &lt;strong&gt;Socials&lt;/strong&gt;&#xA;        &lt;a href=&#34;mailto:raufderiel@gmail.com&#34;&gt;&#xA;            &lt;img src=&#34;http://localhost:1313/images/mail-icon.svg&#34; title=&#34;E-Mail: raufderiel@gmail.com&#34; alt=&#34;E-Mail&#34; style=&#34;width: 24px; height: 24px; vertical-align: middle&#34;&gt;&#xA;        &lt;/a&gt;&#xA;        &lt;a href=&#34;https://www.youtube.com/@RaufDeriel&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&#xA;            &lt;img src=&#34;http://localhost:1313/images/yt-icon.svg&#34; title=&#34;YouTube &#34;alt=&#34;YouTube&#34; style=&#34;width: 24px; height: 24px; vertical-align: middle&#34;&gt;&#xA;        &lt;/a&gt;&#xA;        &lt;a href=&#34;https://www.instagram.com/rder0106&#34;&gt;&#xA;            &lt;img src=&#34;http://localhost:1313/images/ig-icon.svg&#34; title=&#34;Instagram&#34; alt=&#34;Instagram&#34; style=&#34;width: 24px; height: 24px; vertical-align: middle&#34;&gt;&#xA;        &lt;/a&gt;&#xA;        &lt;a href=&#34;https://github.com/raufderiel&#34;&gt;&#xA;            &lt;img src=&#34;http://localhost:1313/images/gh-icon.svg&#34; title=&#34;GitHub&#34; alt=&#34;GitHub&#34; style=&#34;width: 24px; height: 24px; vertical-align: middle&#34;&gt;&#xA;        &lt;/a&gt;&#xA;    &lt;/div&gt;&#xA;&lt;/div&gt;</description>
+			</item>
+			<item>
+				<title>Posts</title>
+				<link>http://localhost:1313/posts/</link>
+				<pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/</guid>
+				<description>&lt;h2 id=&#34;coming-soon&#34;&gt;Coming soon!&lt;/h2&gt;</description>
+			</item>
 	</channel>
 </rss>
