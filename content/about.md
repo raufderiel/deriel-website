@@ -4,8 +4,10 @@ date = 2026-10-15
 draft = true
 omit_header_text = true
 +++
-<div style="display: flex; align-items: center; gap: 10px; width: 100%" class="profile-card">
-<img src="/images/picture.png" id="profile" title="Muslim EduFest — ICE BSD, Tangerang (29/08/26)">
+<div class="profile-card">
+    <div>
+        <img src="/images/picture.png" id="profile" title="Muslim EduFest — ICE BSD, Tangerang (29/08/26)">
+    </div>
         <div class="card" style="flex: 1; min-width: 0;">
             <div class="namerow">
                 <h1>Rauf Deriel</h1>
@@ -54,7 +56,7 @@ omit_header_text = true
   <button type="button" class="tab-btn" id="btn-education">Education Profile</button>
 </div>
 <div id="seeking" class="tab-content active-block card">
-    <h2>Seeking Knowledge</h2><br>
+    <h2>Seeking Knowledge</h2>
     <p>A brief overview on his path of seeking authentic Islamic knowledge.</p>
     <div class="card-row">
         <div class="card">
@@ -158,7 +160,7 @@ omit_header_text = true
     </div>
 </div>
 <div id="education" class="tab-content card" style="display:none;">
-    <h2>Education Profile</h2><br>
+    <h2>Education Profile</h2>
     <p>A brief overview on his overall educational background and related achievements.</p>
     <div class="card-row">
         <div class="card">

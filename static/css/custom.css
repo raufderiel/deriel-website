@@ -87,6 +87,7 @@ header .tc-l {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
     transition: transform 0.2s ease, box-shadow 0.2s ease !important;
     border: 1px solid #e1e4e8 !important;
+    margin-top: 24px !important;
 }
 
 #profile:hover {
@@ -178,8 +179,9 @@ header .tc-l {
     display: flex !important;
     align-items: center !important;
     flex-wrap: nowrap !important;
-    gap: 10px !important;
+    gap: 12px !important;
     width: 100% !important;
+    margin: 0 !important;
 }
 
 #lang img {
@@ -199,28 +201,25 @@ header .tc-l {
   font-weight: 600 !important;
 }
 
-.namerow h2 {
+.namerow h1 {
     margin: 0 !important;
     white-space: nowrap !important;
     flex-shrink: 0 !important;
     line-height: 1 !important;
+    padding: 0 !important;
 }
 
 .namerow .smallcard {
     margin: 0 !important;
     white-space: nowrap !important;
-    transform: translateY(5px) !important;
 }
 .badge-group {
   display: inline-flex !important;
   align-items: center !important;
   gap: 8px !important;
+  margin: 0 !important;
   margin-left: 10px !important;
-  transform: translateY(10px) !important;
-}
-
-.smallcard #badges {
-  border-radius: 0 !important;
+  transform: translateY(-4px) !important;
 }
 
 .badge {
@@ -230,7 +229,7 @@ header .tc-l {
     border: 1px solid #cbd5e1 !important; 
     border-radius: 2px !important; 
     padding: 4px 14px 6px 14px !important;
-    margin: -2px !important;
+    margin: 0 !important;
     box-shadow: none !important;
     outline: none !important;
     align-items: center !important;
@@ -249,22 +248,6 @@ header .tc-l {
     line-height: 1 !important;
 }
 
-@media (min-width: 601px) {
-  .profile-card-inner {
-    position: relative !important; 
-    padding-bottom: 24px !important;
-  }
-
-  .profile-card-inner #quote {
-    position: absolute !important;
-    bottom: 20px !important;
-    right: 24px !important;
-    margin: 0 !important;
-    max-width: 55% !important;
-    display: inline-flex !important;
-  }
-}
-
 @media (max-width: 600px) {
   .badge-group {
     display: flex !important;
@@ -273,7 +256,6 @@ header .tc-l {
     flex-wrap: wrap !important;
     margin-left: 0 !important;
     margin-top: 0 !important;
-    transform: translateY(-5px) !important;
   }
 
   .profile-card-inner #quote {
@@ -397,7 +379,7 @@ main header, main section:first-child, main article:first-child {
 main h1, main h2, main .f1, main .f2 {
   margin-top: 0 !important;
   padding-top: 0 !important;
-  line-height: 0 !important;
+  line-height: normal !important;
 }
 
 .nested-links h1, .nested-links h1 a, article h1, article h1 a, .summary h1, summary h1 a {
@@ -413,7 +395,7 @@ article.bb, .summary-card {
   padding-bottom: 3rem !important;
 }
 
-.fade-preview {
+/* .fade-preview {
   position: relative !important;
   max-height: 500px !important;
   overflow: hidden !important;
@@ -429,7 +411,7 @@ article.bb, .summary-card {
   height: 100px;
   background: linear-gradient(to bottom, rgba(245, 245, 245, 0), rgba(245, 245, 245, 1));
   pointer-events: none;
-}
+} */
 
 .nested-links a.ba, article a.ba, .summary a.ba {
   display: table !important;
@@ -490,22 +472,15 @@ header .nav-brand-text, nav .nav-brand-text {
 .profile-card {
   display: flex !important;
   flex-direction: row !important;
-  align-items: center !important;
+  align-items: flex-start !important;
   text-align: left !important;
   gap: 16px;
   width: 100%;
 }
 
-.profile-card .card, .profile-card .namerow, .profile-card .fade-preview {
-  text-align: left !important;
-  align-items: flex-start !important;
-}
-
 .profile-card .smallcard {
   margin: 0 !important;
 }
-
-
 
 @media (min-width: 601px) {
   .profile-card .socials-container {
@@ -557,13 +532,6 @@ header .nav-brand-text, nav .nav-brand-text {
     max-width: 180px !important;
     height: auto !important;
     margin: 0 auto !important;
-  }
-  .profile-card .card, .profile-card .namerow, .profile-card .fade-preview {
-    width: 100% !important;
-    text-align: center !important;
-    align-items: center !important;
-    justify-content: center !important;
-    box-sizing: border-box !important;
   }
   .profile-card .card {
     display: block !important;
