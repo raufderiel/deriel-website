@@ -1,59 +1,75 @@
 +++
 title = 'About'
 date = 2026-10-15
-draft = false
+draft = true
 omit_header_text = true
 +++
-<div style="display: flex; align-items: center; gap: 10px; width: 100%" class="fade-preview">
-    <img src="/images/picture.png" id="profile" title="Muslim EduFest — ICE BSD, Tangerang (29/08/26)">
-    <div class="card">
-        <div class="namerow">
-            <h2>Rauf Deriel</h2>
-            <div class="smallcard">
-                <span>Indonesian Salafi student of knowledge, preacher, and content creator</span>
+<div style="display: flex; align-items: center; gap: 10px; width: 100%" class="profile-card">
+<img src="/images/picture.png" id="profile" title="Muslim EduFest — ICE BSD, Tangerang (29/08/26)">
+        <div class="card" style="flex: 1; min-width: 0;">
+            <div class="namerow">
+                <h1>Rauf Deriel</h1>
+                <div class="badge-group">
+                    <div class="badge"><span>Salafi</span></div>
+                    <div class="badge"><span>Student of knowledge</span></div>
+                    <div class="badge"><span>Dā‘ī</span></div>
+                </div>
+            </div>
+            <div style="text-align: left;">
+                <div class="info-row">
+                    <div class="smallcard" id="quote">
+                        <span><i>"Be in this world as if you are a stranger or a wayfarer." (Al-Bukhāri)</i></span>
+                    </div>
+                </div>
+                <div class="info-row"><strong>Born</strong> / 01 June 2010</div>
+                <div class="info-row"><strong>Residence</strong> / Serang, Indonesia</div>
+                <div class="info-row" id="lang">
+                    <strong>Languages</strong> /
+                    <img src="/images/id-rectangle.svg" width="19.2px" height="12.8px"><span>Bahasa Indonesia</span>
+                    <img src="/images/gb-rectangle.svg" width="19.2px" height="12.8px"><span>English</span>
+                    <img src="/images/sa-rectangle.svg" width="19.2px" height="12.8px"><span>العربية الفصحى</span>
+                </div>
+                <div class="socials-container">
+                    <div class="socials-label"><strong>Socials</strong></div>
+                    <div class="socials-icons">
+                        <a href="mailto:raufderiel@gmail.com">
+                            <img src="/images/mail-icon.svg" title="Mail: raufderiel@gmail.com" alt="E-Mail" style="width: 24px; height: 24px; vertical-align: middle">
+                        </a>
+                        <a href="https://www.youtube.com/@RaufDeriel" target="_blank" rel="noopener">
+                            <img src="/images/yt-icon.svg" title="YouTube: Rauf Deriel "alt="YouTube" style="width: 24px; height: 24px; vertical-align: middle">
+                        </a>
+                        <a href="https://www.instagram.com/rder0106">
+                            <img src="/images/ig-icon.svg" title="Instagram: @rder0106" alt="Instagram" style="width: 24px; height: 24px; vertical-align: middle">
+                        </a>
+                        <a href="https://github.com/raufderiel">
+                            <img src="/images/gh-icon.svg" title="GitHub: Rauf Deriel" alt="GitHub" style="width: 24px; height: 24px; vertical-align: middle">
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-        <strong>Born</strong> 01 June 2010<br>
-        <strong>Residence</strong> Serang, Indonesia<br>
-        <strong>Socials</strong>
-        <a href="mailto:raufderiel@gmail.com">
-            <img src="/images/mail-icon.svg" title="E-Mail: raufderiel@gmail.com" alt="E-Mail" style="width: 24px; height: 24px; vertical-align: middle">
-        </a>
-        <a href="https://www.youtube.com/@RaufDeriel" target="_blank" rel="noopener">
-            <img src="/images/yt-icon.svg" title="YouTube "alt="YouTube" style="width: 24px; height: 24px; vertical-align: middle">
-        </a>
-        <a href="https://www.instagram.com/rder0106">
-            <img src="/images/ig-icon.svg" title="Instagram" alt="Instagram" style="width: 24px; height: 24px; vertical-align: middle">
-        </a>
-        <a href="https://github.com/raufderiel">
-            <img src="/images/gh-icon.svg" title="GitHub" alt="GitHub" style="width: 24px; height: 24px; vertical-align: middle">
-        </a>
-    </div>
 </div>
-<!--more-->
 <div class="tabs">
   <button type="button" class="tab-btn active" id="btn-seeking">Seeking Knowledge</button>
   <button type="button" class="tab-btn" id="btn-education">Education Profile</button>
 </div>
-
-<script src="/js/tabs.js" defer></script>
-
 <div id="seeking" class="tab-content active-block card">
-    <h3>Seeking Knowledge</h3>
+    <h2>Seeking Knowledge</h2><br>
+    <p>A brief overview on his path of seeking authentic Islamic knowledge.</p>
     <div class="card-row">
         <div class="card">
-            <h4>Memorization</h4>
+            <h2>Memorization</h2>
             <small>
             <ul>
                 <li>
                     <strong>Qur'ān</strong><br>
-                    20 Juz (Hafṣ)
+                    20 Juz' (Hafṣ)
                 </li>
                 <li>
                     <strong>Ḥadīth</strong>
                     <ol>
                         <li>An-Nawawī's Forty Ḥadīth <small>and Ibn Rajab's Addition</small></li>
-                        <li>‘Umdat Al-Aḥkām <br><small><i>(by Al-Maqdisī)</i></small> — (101 - 180)</li>
+                        <li>‘Umdat Al-Aḥkām (No. 101 - 180)<br><small><i>(by Al-Maqdisī)</i></small></li>
                     </ol>
                 </li>
                 <li>
@@ -72,10 +88,10 @@ omit_header_text = true
             </small>
         </div>
         <div class="card">
-            <h4>Scholars Studied From</h4>
+            <h2>Scholars Studied From</h2>
             <small>
             <ol>
-                <li>Sheikh Dr. ‘Abd Al-Muhsin ibn Muhammad Al-Qāsim <br><i><small>Imam & Khatīb at the Prophet's Mosque</small></i></li>
+                <li>Sheikh Dr. ‘Abd Al-Muhsin ibn Muhammad Al-Qāsim <br><i><small>Imām & Khatīb at the Prophet's Mosque</small></i></li>
                 <li>Sheikh Saeed Hassan <br><i><small>Graduate of the Imam Muhammad ibn Saud Islamic University</small></i></li>
                 <li>Ustādh ‘Abd Al-‘Azīz Al-Haqqān <br><i><small>Graduate of the Islamic University of Medina</small></i></li>
                 <li>Ustādh Dr. (HC) Fachrudin Nu'man, Lc., MA <br><i><small>Graduate of the Islamic University of Medina</small></i></li>
@@ -83,7 +99,7 @@ omit_header_text = true
                 <li>Ustādh Aang Ruyani, Lc., MA <br><i><small>Graduate of the Jakarta Institute of Islamic and Arabic Sciences</small></i></li>
                 <li>Ustādh Ashlah Ghifari, BA, MA <br><i><small>Graduate of Umm Al-Qura University</small></i></li>
                 <li>Ustādh Kifaa Hul Banna, BA <br><i><small>Graduate of the Islamic University of Medina</small></i></li>
-                <li>Ustādh Alfian Nashih Ulwan, BA <br><i><small>Gradaute of the International University of Africa</small></i></li>
+                <li>Ustādh Alfian Nashih Ulwan, BA <br><i><small>Graduate of the International University of Africa</small></i></li>
                 <li>Ustādh Soval Yunus, BA <br><i><small>Graduate of the Jakarta Institute of Islamic and Arabic Sciences</small></i></li>
                 <li>Ustādh Ridwan Syahrudin, Lc., MA <br><i><small>Graduate of the Jakarta Institute of Islamic and Arabic Sciences</small></i></li>
                 <li>Ustādh Isfaul Choiry <br><i><small>Graduate of the Imam Syafi'i College of Islamic Studies</small></i></li>
@@ -96,7 +112,7 @@ omit_header_text = true
             </small>
         </div>
         <div class="card">
-            <h4>Books Studied</h4>
+            <h2>Books Studied</h2>
             <small>
             <ul>
                 <li>
@@ -117,7 +133,7 @@ omit_header_text = true
                     </ol>
                 </li>
                 <li>
-                    <strong>Fiqh (Jurispundence)</strong>
+                    <strong>Fiqh (Jurisprudence)</strong>
                     <ol>
                         <li>Al-Fiqh Al-Muyassar<br><small><i>(by Al-Lajnah Ad-Dā'imah)</i></small></li>
                         <li>Al-Qawā'id Al-Fiqhiyyah<br><small><i>(by As-Sa‘dī)</i></small></li>
@@ -142,17 +158,18 @@ omit_header_text = true
     </div>
 </div>
 <div id="education" class="tab-content card" style="display:none;">
-    <h3>Education Profile</h3>
+    <h2>Education Profile</h2><br>
+    <p>A brief overview on his overall educational background and related achievements.</p>
     <div class="card-row">
         <div class="card">
-            <h4>Education</h4>
-            <h5>Formal</h5>
+            <h2>Education</h2>
+            <h3>Formal</h3>
             <ol>
                 <li><strong>Senior High School</strong></li>
                 <ul>
                     <li>
                         <strong>Riyadhussholihiin Islamic Boarding School <a href="https://riyadhussholihiin.or.id/"><img src="/images/popup.svg" width="10px" height="10px"></a></strong>
-                        <br><small>2025 - </small><br>
+                        <small>2025 - </small><br>
                         <small><i>Pandeglang, Indonesia</i></small><br>
                     </li>
                 </ul>
@@ -160,7 +177,7 @@ omit_header_text = true
                 <ul>
                     <li>
                         <strong>Widya Cendekia Integrated Islamic School <a href="https://widyacendekia.sch.id/"><img src="/images/popup.svg" width="10px" height="10px"></a></strong>
-                        <br><small>2023 - 2025</small><br>
+                        <small>2023 - 2025</small><br>
                         <small><i>Serang, Indonesia</i></small><br>
                     </li>
                     <li>
@@ -186,7 +203,7 @@ omit_header_text = true
                         </li>
                     </ul>
             </ol>
-            <h5>Non-Formal</h5>
+            <h3>Non-Formal</h3>
             <ul>
                 <li>
                     <strong>Alhazen Academy <a href="https://alhazen.academy/"><img src="/images/popup.svg" width="10px" height="10px"></a></strong><small> 2022 - 2025</small><br>
@@ -199,12 +216,12 @@ omit_header_text = true
             </ul>
         </div>
         <div class="card">
-            <h4>Achievements</h4>
-            <h5>Formal</h5>
+            <h2>Achievements</h2>
+            <h3>Formal</h3>
             <ul>
                 <li>
                     <strong>Muslim EduFest </strong><small>2026</small><br>
-                    <small><i>Association of Islamic Da'wah and Education Institutions of Indonesia</i></small><br>
+                    <small><i>PULDAPII</i></small><br>
                     <strong style="color:goldenrod">1<sup>st</sup> </strong>
                     <small>English Speech Competition</small>
                 </li>
@@ -236,9 +253,9 @@ omit_header_text = true
                     <strong>English Festival </strong><small>Serang, 2024</small><br>
                     <small><i>English Language Teachers' Forum</i></small><br>
                     <strong style="color:goldenrod">1<sup>st</sup> </strong><small>Student's Talk</small>
-                </li><br>
+                </li>
             </ul>
-            <h5>Non-Formal</h5>
+            <h3>Non-Formal</h3>
             <ul>
                 <li>
                     <strong>Hamza Test (TOAFL) Screening </strong><small>2026</small><br>
@@ -259,9 +276,9 @@ omit_header_text = true
                     <strong style="color:rgb(205,127,50)">3<sup>rd</sup></strong><strong> Creativity</strong><small> — Cilegon, 2019</small><br>
                     <strong style="color:rgb(205,127,50)">4<sup>th</sup></strong><strong> Creativity</strong><small> — Serang, 2014</small><br>
                     <strong style="color:rgb(205,127,50)">Best Performance</strong><strong> Construction</strong><small> (Group) — Banten, 2018</small>
-                </li><br>
+                </li>
             </ul>
-            <h5>Internal</h5>
+            <h3>Internal</h3>
             <ul>
                 <li>
                     <strong>Riyadhussholihiin Islamic Boarding School</strong><br>
@@ -269,19 +286,19 @@ omit_header_text = true
                     <strong style="color:goldenrod">1<sup>st</sup></strong><small> Memorization of Kitāb At-Tawhīd <small><i>(by Muhammad At-Tamīmī)</i></small></small><br>
                     <strong style="color:gray">2<sup>nd</sup></strong><small> English Speech</small><br>
                     <small><i>Qur'an Memorization Exam</i></small><br>
-                    <strong style="color:goldenrod">98</strong><small> 10 Juz, Sep 2025</small><br>
+                    <strong style="color:goldenrod">98</strong><small> 10 Ajzā', Sep 2025</small><br>
                     <small><i>Monthly Speech Competition, 2025</i></small><br>
                     <strong style="color:goldenrod">1<sup>st</sup></strong><small> Indonesian Speech</small><br>
                     <small><i>Qur'an Memorization Competition</i></small><br>
-                    <strong style="color:goldenrod">1<sup>st</sup></strong><small> 5 Juz, Q3 2025</small><br>
-                    <strong style="color:gray">2<sup>nd</sup></strong><small> 5 Juz, Q4 2025</small><br>
+                    <strong style="color:goldenrod">1<sup>st</sup></strong><small> 5 Ajzā', Q3 2025</small><br>
+                    <strong style="color:gray">2<sup>nd</sup></strong><small> 5 Ajzā', Q4 2025</small><br>
                 </li><br>
                 <li>
                     <strong>Widya Cendekia Integrated Islamic School</strong><br>
                     <small><i>Qur'an Completion Event, 2025</i></small><br>
-                    <strong style="color:goldenrod">Best Participant</strong><small> Memorization of Juz 27, 28</small><br>
+                    <strong style="color:goldenrod">Best Participant</strong><small> Memorization of Ajzā' 27, 28</small><br>
                     <small><i>Qur'an Completion Event, 2024</i></small><br>
-                    <strong style="color:goldenrod">Best Participant</strong><small> Memorization of Juz 29, 30</small><br><br>
+                    <strong style="color:goldenrod">Best Participant</strong><small> Memorization of Ajzā' 29, 30</small><br><br>
                     <small><i>Level 1 Competition (Scout Movement), 2024</i></small><br>
                     <strong style="color:goldenrod">Overall Champion</strong><small> (Group)</small><br>
                     <strong style="color:goldenrod">1<sup>st</sup> </strong><small>General and Scouting Knowledge</small>

@@ -9,7 +9,7 @@ theme = 'ananke'
 [[menu.main]]
     name = "Posts"
     url = "/posts/"
-    weight = 2
+    weight = "2"
 [params]
     background_color_class = "none"
     site_logo = "/images/Profile.png"
