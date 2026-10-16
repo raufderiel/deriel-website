@@ -1,0 +1,19 @@
+<header style="background-color: rgb(2, 2, 83); padding: 0.75rem 1rem;">
+  <div class="nav-container center" style="max-width: 80rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; width: 100%; box-sizing:border-box;">
+    
+    <!-- BRAND GROUP -->
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <a class="f3 fw2 hover-white no-underline white-90 dib" href="/" style="color:whitesmoke !important; display: flex; align-items: center;">
+        <img src="/images/Profile.png" alt="Rauf Deriel" style="max-height: 40px; width: auto; display: block;">{{ .Site.Title }} | Official Website
+      </a>
+    </div>
+
+    <!-- NAVIGATION MENU -->
+    <nav class="site-nav" role="navigation" style="display: flex; gap: 15px; align-items: center;">
+      {{ range .Site.Menus.main -}}
+        <a class="link hover-white f5 no-underline white-80 dib" style="color: #ffffff; text-decoration: none;" href="{{ .URL }}">{{ .Name }}</a>
+      {{- end }}
+    </nav>
+
+  </div>
+</header>
