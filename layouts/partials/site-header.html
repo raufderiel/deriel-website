@@ -1,0 +1,54 @@
+<header style="background-color: var(--header-bg, rgb(2, 2, 83)); padding: 0.75rem 1rem; position: relative; z-index: 100;">
+  <div class="nav-container center" style="max-width: 80rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; width: 100%; box-sizing: border-box;">
+    
+    <!-- BRAND GROUP -->
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <a class="f3 fw2 hover-white no-underline white-90 dib" href="/" style="color: whitesmoke !important; display: flex; align-items: center; text-decoration: none;">
+        <img src="/images/Profile.png" alt="Rauf Deriel" style="max-height: 40px; width: auto; display: block; margin-right: 8px;">
+        {{ .Site.Title }} | Official Website
+      </a>
+    </div>
+
+    <!-- NAVIGATION MENU & SETTINGS -->
+    <nav class="site-nav" role="navigation" style="display: flex; gap: 15px; align-items: center; position: relative; z-index: 101;">
+      {{ range .Site.Menus.main -}}
+        <a class="link hover-white f5 no-underline white-80 dib" style="color: #ffffff; text-decoration: none;" href="{{ .URL }}">{{ .Name }}</a>
+      {{- end }}
+
+      <!-- SETTINGS DROPDOWN -->
+      <div id="settings-wrapper" style="position: relative; display: inline-block;">
+        <button id="settings-toggle-btn" type="button" aria-expanded="false" title="Settings" style="background: transparent; border: none; color: #ffffff; cursor: pointer; padding: 5px 12px; border-radius: 6px; font-weight: 600; font-size: 0.9rem;">
+          ⚙
+        </button>
+
+        <div id="settings-menu" style="display: none; position: absolute; right: 0; top: 130%; background: var(--card-bg, #ffffff); border: 1px solid var(--border-color, #cbd5e1); border-radius: 8px; padding: 12px; min-width: 180px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); z-index: 999;">
+          
+          <!-- DARK MODE TOGGLE SWITCH -->
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+            <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.85rem; font-weight: 600; color: var(--menu-text, #333);" id="theme-label">
+
+            </span>
+            <label class="toggle-switch">
+              <input type="checkbox" id="dark-mode-toggle">
+              <span class="slider"></span>
+            </label>
+          </div>
+
+          <hr style="border: 0; border-top: 1px solid var(--border-color, #e2e8f0); margin: 8px 0;">
+
+          <!-- LANGUAGE SELECTOR -->
+          <div style="display: flex; flex-direction: column; gap: 4px;">
+            <span style="font-size: 0.8rem; font-weight: 600; color: var(--menu-text, #333);">Language | Bahasa | اللغة</span>
+            <select id="lang-select" style="padding: 4px; border-radius: 4px; border: 1px solid var(--border-color, #cbd5e1); background-color: var(--input-bg, #fff); color: var(--menu-text, #333); font-size: 0.8rem; cursor: pointer;">
+              <option value="en">🇬🇧 English</option>
+              <option value="id">🇮🇩 Bahasa Indonesia</option>
+              <option value="ar">🇸🇦 العربية</option>
+            </select>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+
+  </div>
+</header>

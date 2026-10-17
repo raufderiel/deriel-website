@@ -1,16 +1,17 @@
 +++
 title = 'About'
 date = 2026-10-15
-draft = true
+draft = false
 omit_header_text = true
 +++
+<h1 id="title">About</h1>
 <div class="profile-card">
     <div>
         <img src="/images/picture.png" id="profile" title="Muslim EduFest — ICE BSD, Tangerang (29/08/26)">
     </div>
         <div class="card" style="flex: 1; min-width: 0;">
             <div class="namerow">
-                <h1>Rauf Deriel</h1>
+                <h1 id="name">Rauf Deriel</h1>
                 <div class="badge-group">
                     <div class="badge"><span>Salafi</span></div>
                     <div class="badge"><span>Student of knowledge</span></div>
@@ -23,28 +24,35 @@ omit_header_text = true
                         <span><i>"Be in this world as if you are a stranger or a wayfarer." (Al-Bukhāri)</i></span>
                     </div>
                 </div>
-                <div class="info-row"><strong>Born</strong> / 01 June 2010</div>
-                <div class="info-row"><strong>Residence</strong> / Serang, Indonesia</div>
+                <div class="info-row"><strong>Residence</strong> / Indonesia</div>
                 <div class="info-row" id="lang">
                     <strong>Languages</strong> /
-                    <img src="/images/id-rectangle.svg" width="19.2px" height="12.8px"><span>Bahasa Indonesia</span>
-                    <img src="/images/gb-rectangle.svg" width="19.2px" height="12.8px"><span>English</span>
-                    <img src="/images/sa-rectangle.svg" width="19.2px" height="12.8px"><span>العربية الفصحى</span>
+                    <span>🇮🇩 Bahasa Indonesia</span>
+                    <span>🇬🇧 English</span>
+                    <span>🇸🇦 العربية</span>
                 </div>
                 <div class="socials-container">
                     <div class="socials-label"><strong>Socials</strong></div>
                     <div class="socials-icons">
                         <a href="mailto:raufderiel@gmail.com">
-                            <img src="/images/mail-icon.svg" title="Mail: raufderiel@gmail.com" alt="E-Mail" style="width: 24px; height: 24px; vertical-align: middle">
-                        </a>
+                            <svg width="auto" height="22px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="currentColor"fill-rule="evenodd" clip-rule="evenodd" d="M3.75 5.25L3 6V18L3.75 18.75H20.25L21 18V6L20.25 5.25H3.75ZM4.5 7.6955V17.25H19.5V7.69525L11.9999 14.5136L4.5 7.6955ZM18.3099 6.75H5.68986L11.9999 12.4864L18.3099 6.75Z" fill="#080341"/>
+                            </svg>
+                        </a>   
                         <a href="https://www.youtube.com/@RaufDeriel" target="_blank" rel="noopener">
-                            <img src="/images/yt-icon.svg" title="YouTube: Rauf Deriel "alt="YouTube" style="width: 24px; height: 24px; vertical-align: middle">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="auto" height="20px" fill="currentColor">
+                            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                            </svg>
                         </a>
                         <a href="https://www.instagram.com/rder0106">
-                            <img src="/images/ig-icon.svg" title="Instagram: @rder0106" alt="Instagram" style="width: 24px; height: 24px; vertical-align: middle">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="auto" height="16px" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                            </svg>
                         </a>
                         <a href="https://github.com/raufderiel">
-                            <img src="/images/gh-icon.svg" title="GitHub: Rauf Deriel" alt="GitHub" style="width: 24px; height: 24px; vertical-align: middle">
+                            <svg width="auto" height="16px" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z" transform="scale(64)" fill="#1B1F23"/>
+                            </svg>
                         </a>
                     </div>
                 </div>
@@ -52,10 +60,10 @@ omit_header_text = true
         </div>
 </div>
 <div class="tabs">
-  <button type="button" class="tab-btn active" id="btn-seeking">Seeking Knowledge</button>
-  <button type="button" class="tab-btn" id="btn-education">Education Profile</button>
+  <button type="button" class="tab-btn active" data-tab="seeking">Seeking Knowledge</button>
+  <button type="button" class="tab-btn" data-tab="education">Education Profile</button>
 </div>
-<div id="seeking" class="tab-content active-block card">
+<div id="seeking" class="tab-content active card">
     <h2>Seeking Knowledge</h2>
     <p>A brief overview on his path of seeking authentic Islamic knowledge.</p>
     <div class="card-row">
@@ -70,20 +78,20 @@ omit_header_text = true
                 <li>
                     <strong>Ḥadīth</strong>
                     <ol>
-                        <li>An-Nawawī's Forty Ḥadīth <small>and Ibn Rajab's Addition</small></li>
-                        <li>‘Umdat Al-Aḥkām (No. 101 - 180)<br><small><i>(by Al-Maqdisī)</i></small></li>
+                        <li>An-Nawawi's Forty Ḥadīth <small>and Ibn Rajab's Addition</small></li>
+                        <li>‘Umdat Al-Aḥkām (No. 101 - 180)<br><small><i>(by Al-Maqdisi)</i></small></li>
                     </ol>
                 </li>
                 <li>
                     <strong>Texts of Knowledge</strong>
                     <ol>
-                        <li>Nawāqiḍ Al-Islām <br><small><i>(by Muhammad At-Tamīmī)</i></small></li>
-                        <li>Qawā'id Al-'Arba‘ <br><small><i>(by Muhammad At-Tamīmī)</i></small></li>
-                        <li>Uṣūl Ath-Thalāthah <br><small><i>(by Muhammad At-Tamīmī)</i></small></li>
+                        <li>Nawāqiḍ Al-Islām <br><small><i>(by Muhammad At-Tamīmi)</i></small></li>
+                        <li>Qawā'id Al-'Arba‘ <br><small><i>(by Muhammad At-Tamīmi)</i></small></li>
+                        <li>Uṣūl Ath-Thalāthah <br><small><i>(by Muhammad At-Tamīmi)</i></small></li>
                         <li>Ṭuḥfat Al-Aṭfāl <br><small><i>(by Sulayman Al-Jamzūri)</i></small></li>
-                        <li>Shurūṭ Aṣ-Ṣalāḥ <br><small><i>(by Muhammad At-Tamīmī)</i></small></li>
-                        <li>Kitāb At-Tawḥīd <br><small><i>(by Muhammad At-Tamīmī)</i></small></li>
-                        <li>Manẓūmah Al-Bayqūniyyah <br><small><i>(by Al-Bayqūnī)</i></small></li>
+                        <li>Shurūṭ Aṣ-Ṣalāḥ <br><small><i>(by Muhammad At-Tamīmi)</i></small></li>
+                        <li>Kitāb At-Tawḥīd <br><small><i>(by Muhammad At-Tamīmi)</i></small></li>
+                        <li>Manẓūmah Al-Bayqūniyyah <br><small><i>(by Al-Bayqūni)</i></small></li>
                     </ol>
                 </li>
             </ul>
@@ -96,14 +104,14 @@ omit_header_text = true
                 <li>Sheikh Dr. ‘Abd Al-Muhsin ibn Muhammad Al-Qāsim <br><i><small>Imām & Khatīb at the Prophet's Mosque</small></i></li>
                 <li>Sheikh Saeed Hassan <br><i><small>Graduate of the Imam Muhammad ibn Saud Islamic University</small></i></li>
                 <li>Ustādh ‘Abd Al-‘Azīz Al-Haqqān <br><i><small>Graduate of the Islamic University of Medina</small></i></li>
-                <li>Ustādh Dr. (HC) Fachrudin Nu'man, Lc., MA <br><i><small>Graduate of the Islamic University of Medina</small></i></li>
-                <li>Ustādh Dr. Abdullah Roy, Lc., MA <br><i><small>Graduate of the Islamic University of Medina</small></i></li>
-                <li>Ustādh Aang Ruyani, Lc., MA <br><i><small>Graduate of the Jakarta Institute of Islamic and Arabic Sciences</small></i></li>
+                <li>Ustādh Dr. (H.C.) Fachrudin Nu'man, Lc, MA <br><i><small>Graduate of the Islamic University of Medina</small></i></li>
+                <li>Ustādh Dr. Abdullah Roy, Lc, MA <br><i><small>Graduate of the Islamic University of Medina</small></i></li>
+                <li>Ustādh Aang Ruyani, Lc, MA <br><i><small>Graduate of the Jakarta Institute of Islamic and Arabic Sciences</small></i></li>
                 <li>Ustādh Ashlah Ghifari, BA, MA <br><i><small>Graduate of Umm Al-Qura University</small></i></li>
-                <li>Ustādh Kifaa Hul Banna, BA <br><i><small>Graduate of the Islamic University of Medina</small></i></li>
+                <li>Ustādh Kifaa Hul Banna, Lc  <br><i><small>Graduate of the Islamic University of Medina</small></i></li>
                 <li>Ustādh Alfian Nashih Ulwan, BA <br><i><small>Graduate of the International University of Africa</small></i></li>
                 <li>Ustādh Soval Yunus, BA <br><i><small>Graduate of the Jakarta Institute of Islamic and Arabic Sciences</small></i></li>
-                <li>Ustādh Ridwan Syahrudin, Lc., MA <br><i><small>Graduate of the Jakarta Institute of Islamic and Arabic Sciences</small></i></li>
+                <li>Ustādh Ridwan Syahrudin, Lc, MA <br><i><small>Graduate of the Jakarta Institute of Islamic and Arabic Sciences</small></i></li>
                 <li>Ustādh Isfaul Choiry <br><i><small>Graduate of the Imam Syafi'i College of Islamic Studies</small></i></li>
                 <li>Ustādh Alvi Rahmatullah <br><i><small>Graduate of the Imam Syafi'i College of Islamic Studies</small></i></li>
                 <li>Ustādh Rofi Hanif Firjatullah <br><i><small>Graduate of the Imam Syafi'i College of Islamic Studies</small></i></li>
@@ -120,25 +128,25 @@ omit_header_text = true
                 <li>
                     <strong>Āqīdah (Creed)</strong>
                     <ol>
-                        <li>Uṣūl Ath-Thalāthah <br><small><i>(by Muhammad At-Tamīmī)</i></small></li>
+                        <li>Uṣūl Ath-Thalāthah <br><small><i>(by Muhammad At-Tamīmi)</i></small></li>
                         <li>Talkhiṣ Uṣūl Al-Īmān<br><small><i>(summary by Ashlah Ghifari, original by Al-Lajnah Ad-Dā'imah)</i></small></li>
-                        <li>Al Jadīd, exp. of Kītāb At-Tawhīd<br><small><i>(by Al-Qar‘awī)</i></small></li>
-                        <li>Qawā'id Al-'Arba‘ <br><small><i>(by Muhammad At-Tamīmī)</i></small></li>
-                        <li>Ma‘ārij Al-Qabūl exp. of Sullam Al-Wuṣūl<br><small><i>(by Ḥāfiẓ ibn Aḥmad Al-Ḥakamī)</i></small></li>
+                        <li>Al Jadīd, exp. of Kītāb At-Tawhīd<br><small><i>(by Al-Qar‘awi)</i></small></li>
+                        <li>Qawā'id Al-'Arba‘ <br><small><i>(by Muhammad At-Tamīmi)</i></small></li>
+                        <li>Ma‘ārij Al-Qabūl exp. of Sullam Al-Wuṣūl<br><small><i>(by Ḥāfiẓ ibn Aḥmad Al-Ḥakami)</i></small></li>
                     </ol>
                 </li>
                 <li>
                     <strong>Manhaj (Methodology)</strong>
                     <ol>
-                        <li>Kun Salafiyyan<br><small><i>(by ‘Abd As-Salām As-Suḥaymī)</i></small></li>
-                        <li>Al-'Amr bi Al-Ittiba‘ wa An-Nahy ‘an Al-Ibtida‘<br><small><i>(by As-Suyūṭī)</i></small></li>
+                        <li>Kun Salafiyyan<br><small><i>(by ‘Abd As-Salām As-Suḥaymi)</i></small></li>
+                        <li>Al-'Amr bi Al-Ittiba‘ wa An-Nahy ‘an Al-Ibtida‘<br><small><i>(by As-Suyūṭi)</i></small></li>
                     </ol>
                 </li>
                 <li>
                     <strong>Fiqh (Jurisprudence)</strong>
                     <ol>
                         <li>Al-Fiqh Al-Muyassar<br><small><i>(by Al-Lajnah Ad-Dā'imah)</i></small></li>
-                        <li>Al-Qawā'id Al-Fiqhiyyah<br><small><i>(by As-Sa‘dī)</i></small></li>
+                        <li>Al-Qawā'id Al-Fiqhiyyah<br><small><i>(by As-Sa‘di)</i></small></li>
                         <li>Al-'Uṣūl min ‘Ilm Al-'Uṣūl<br><small><i>(by Al-‘Uthaymīn)</i></small></li>
                         <li>I‘ānaṭ Aṭ-Ṭālib fī Bidāyati ‘Ilmil Farā'iḍ<br><small><i>(by Sayyid Aḥmad ibn Yūsuf)</i></small></li>
                     </ol>
@@ -147,9 +155,9 @@ omit_header_text = true
                     <strong>Hadīth</strong>
                         <ol>
                             <li>Taysīr Al-‘Allam, exp. of ‘Umdat Al-Aḥkām<br><small><i>(by Al-Bassām)</i></small></li>
-                            <li>Riyādh Aṣ-Ṣāliḥīn<br><small><i>(by An-Nawawī)</i></small></li>
+                            <li>Riyādh Aṣ-Ṣāliḥīn<br><small><i>(by An-Nawawi)</i></small></li>
                             <small>
-                                <li>At-Ta‘liqāt Al-Athariyyah, exp. of Al-Bayqūniyyah<br><i>(by ‘Ali Al-Ḥalabī)</i></li>
+                                <li>At-Ta‘liqāt Al-Athariyyah, exp. of Al-Bayqūniyyah<br><i>(by ‘Ali Al-Ḥalabi)</i></li>
                             </small>
                             <li>Taysīr Muṣṭalaḥil Ḥadīth<br><small><i>(by Maḥmūd Aṭ-Ṭaḥḥān)</i></small></li>
                         </ol>
@@ -159,7 +167,7 @@ omit_header_text = true
         </div>
     </div>
 </div>
-<div id="education" class="tab-content card" style="display:none;">
+<div id="education" class="tab-content card">
     <h2>Education Profile</h2>
     <p>A brief overview on his overall educational background and related achievements.</p>
     <div class="card-row">

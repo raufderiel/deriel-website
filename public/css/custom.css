@@ -1,3 +1,15 @@
+.f1, .athelas, .mt3, .mb1 {
+  display: none !important;
+}
+
+#title {
+  color: rgb(2, 2, 83)
+}
+
+[data-theme="dark"] #title {
+  color: var(--text-color)
+}
+
 time, time.f6, header time, .nested-links time {
   display: none !important;
 }
@@ -17,7 +29,7 @@ body, div, p, a, span, li, ul, ol {
 body {
   margin: 0 !important;
   padding: 0 !important;
-  background-color: whitesmoke !important;
+  background-color: white !important;
   overflow-x: hidden !important;
 }
 
@@ -30,6 +42,11 @@ h1, h2, h3, h4, h5, h6, p {
     margin-top: 10px !important;
     margin-bottom: 10px !important;
     font-family: 'Segoe UI' !important;
+    text-decoration: none !important;
+}
+
+#education h3 {
+  border-bottom: none !important;
 }
 
 strong {
@@ -60,7 +77,7 @@ header img, nav img, .site-logo {
 }
 
 header nav {
-  background-color: rgb(2, 2, 83) !important;
+  background-color: transparent !important;
   position: relative !important;
 }
 
@@ -86,7 +103,6 @@ header .tc-l {
     object-fit: cover !important;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
     transition: transform 0.2s ease, box-shadow 0.2s ease !important;
-    border: 1px solid #e1e4e8 !important;
     margin-top: 24px !important;
 }
 
@@ -95,17 +111,8 @@ header .tc-l {
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08) !important;
 }
 
-.card {
-    background-color: whitesmoke !important;
-    border: 1px solid #e1e4e8 !important;
-    border-radius: 20px !important;
-    padding: 20px 24px !important;
-    margin-top: 24px !important;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
-    transition: transform 0.2s ease, box-shadow 0.2s ease !important;
-    width: 100% !important;
-    max-width: 1280px !important;
-    height: 100% !important;
+#name {
+  margin-bottom: 15px !important;
 }
 
 .card-row > .card {
@@ -118,6 +125,7 @@ header .tc-l {
     height: fit-content !important;
     width: 100% !important;
 }
+
 .smallcard {
     display: inline-flex !important;
     background-color: #e2e8f0 !important; 
@@ -144,17 +152,38 @@ header .tc-l {
     line-height: 1 !important;
 }
 
+.socials-icons a {
+  align-items: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+[data-theme="dark"] #socialicon {
+  border: 1px solid #334155 !important;
+  background-color: #1e293b !important;
+}
+
+.socials-icons a svg {
+  color: #64748b; /* Default icon color in light mode */
+  transition: color 0.2s ease;
+}
+
+.socials-icons a:hover svg {
+  color: #2563eb; /* Color when hovering over the icon */
+}
+
+/* Dark mode automatic text/icon color adaptation */
+[data-theme="dark"] .socials-icons a svg {
+  color: #94a3b8; /* Default icon color in dark mode */
+}
+
+[data-theme="dark"] .socials-icons a:hover svg {
+  color: #60a5fa; /* Hover color in dark mode */
+}
+
 .card:hover {
     transform: translateY(-2px) !important;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08) !important;
-}
-
-.card h2 {
-    margin-top: 10px !important;
-    margin-bottom: 0 !important;
-    color: rgb(2, 2, 83) !important;
-    border-bottom: 2px solid #f0f2f5 !important;
-    padding-bottom: 8px !important;
 }
 
 .card small, p, a {
@@ -184,21 +213,10 @@ header .tc-l {
     margin: 0 !important;
 }
 
-#lang img {
-  margin: 5px !important;
-  transform: translateY(7px) !important;
-}
-
-#lang {
-  margin: 0 !important;
-  display: block !important;
-  transform: translateY(-7px) !important;
-}
-
 #lang span {
   align-items: center !important;
-  font-size: 0.8rem !important;
-  font-weight: 600 !important;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
 }
 
 .namerow h1 {
@@ -219,7 +237,7 @@ header .tc-l {
   gap: 8px !important;
   margin: 0 !important;
   margin-left: 10px !important;
-  transform: translateY(-4px) !important;
+  transform: translateY(3px) !important;
 }
 
 .badge {
@@ -249,6 +267,10 @@ header .tc-l {
 }
 
 @media (max-width: 600px) {
+  #title {
+    padding: 10px !important;
+  }
+
   .badge-group {
     display: flex !important;
     flex-direction: row !important;
@@ -627,4 +649,328 @@ header .nav-brand-text, nav .nav-brand-text {
 
 *, *::before, *::after {
   box-sizing: border-box;
+}
+
+::root {
+  --bg-color: whitesmoke;
+  --text-color: #333333;
+  --text-muted: #666666;
+  --heading-color: rgb(2, 2, 83);
+  --card-bg: #ffffff;
+  --border-color: #e1e4e8;
+  --header-bg: rgb(2, 2, 83);
+  --input-bg: #ffffff;
+  --menu-text: #333333;
+}
+
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #e2e8f0;
+  --text-muted: #94a3b8;
+  --heading-color: #60a5fa; /* Bright clear blue for Dark Mode */
+  --card-bg: #1e1e1e;
+  --border-color: #333333;
+  --header-bg: #0b0f19;
+  --input-bg: #2a2a2a;
+  --menu-text: #f1f5f9;
+}
+
+/* Base Body Styles */
+body {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* Headings & Title Text */
+h1, h2, h3, h4, h5, h6, 
+.card h2,
+article h1 {
+  color: var(--heading-color) !important;
+}
+
+/* Cards & Content Container Text */
+.card, .readmore, article, main {
+  background-color: var(--card-bg) !important;
+  border-color: var(--border-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* Profile Text, Badges & Muted Subtext Inversion */
+p, span, div, small, li, 
+.profile-info, 
+[class*="text"], 
+[class*="label"],
+[class*="value"] {
+  color: var(--text-color);
+}
+
+/* Muted Meta Text (e.g. Born / Residence / Languages) */
+.text-muted, small, time {
+  color: var(--text-muted) !important;
+}
+
+/* Menu Text */
+#settings-menu span, #settings-menu option {
+  color: var(--menu-text) !important;
+}
+
+/* --- PRECISION SLIDER TOGGLE SWITCH --- */
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 38px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: #cbd5e1;
+  transition: 0.3s;
+  border-radius: 20px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.3s;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.toggle-switch input:checked + .slider {
+  background-color: #2563eb;
+}
+
+.toggle-switch input:checked + .slider:before {
+  transform: translateX(18px);
+}
+
+/* 1. Force Name Heading & Top Headings to Dynamic Variable */
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] .profile-card h1,
+[data-theme="dark"] .profile-card h2,
+[data-theme="dark"] .profile-card .name {
+  color: var(--heading-color, #60a5fa) !important;
+}
+
+/* 2. Fix Low-Contrast Descriptive Subtext */
+[data-theme="dark"] p,
+[data-theme="dark"] span,
+[data-theme="dark"] li,
+[data-theme="dark"] .profile-card,
+[data-theme="dark"] .profile-card *,
+[data-theme="dark"] .tab-content,
+[data-theme="dark"] .tab-content * {
+  color: #e2e8f0; /* Clear bright light-gray for dark mode */
+}
+
+/* Muted Subtitles & Descriptions */
+[data-theme="dark"] .subtitle,
+[data-theme="dark"] .description,
+[data-theme="dark"] small,
+[data-theme="dark"] .text-muted,
+[data-theme="dark"] p[style*="color"] {
+  color: #94a3b8 !important; /* High contrast soft grayish blue */
+}
+
+/* 3. Remove Random Underlines / Lines Over Socials & Headings */
+.profile-card a,
+.profile-card a:hover,
+.socials a,
+.socials a:hover,
+.socials-icons a {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+/* Clean up horizontal accent lines under card headers */
+[data-theme="dark"] hr,
+[data-theme="dark"] .border-b,
+[data-theme="dark"] [style*="border-bottom"] {
+  border-color: #334155 !important;
+}
+
+/* Tab Button Styling for Dark/Light Mode */
+.tab-btn {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+[data-theme="dark"] .tab-btn.active,
+[data-theme="dark"] .tab-btn[aria-selected="true"] {
+  background-color: #2563eb !important;
+  color: #ffffff !important;
+}
+
+[data-theme="dark"] .tab-btn:not(.active) {
+  background-color: #1e293b !important;
+  color: #94a3b8 !important;
+  border: 1px solid #334155 !important;
+}
+
+/* Fix 1: Subtext & Detail Labels Contrast */
+[data-theme="dark"] .card span,
+[data-theme="dark"] .card p,
+[data-theme="dark"] .card li,
+[data-theme="dark"] .profile-card,
+[data-theme="dark"] .profile-card span,
+[data-theme="dark"] .profile-card div {
+  color: #cbd5e1 !important; /* Bright soft slate color */
+}
+
+/* Specific fix for muted values (e.g. "Serang, Indonesia") */
+[data-theme="dark"] .text-muted,
+[data-theme="dark"] [class*="muted"],
+[data-theme="dark"] [style*="color: #666"],
+[data-theme="dark"] [style*="color: rgb"] {
+  color: #94a3b8 !important;
+}
+
+/* Fix 2: Quote Box (.smallcard / #quote) */
+[data-theme="dark"] #quote,
+[data-theme="dark"] .quote,
+[data-theme="dark"] .smallcard #quote {
+  background-color: #1e293b !important; /* Dark slate background */
+  border: 1px solid #334155 !important;   /* Subtle blue accent border */
+  color: #60a5fa !important;             /* Clear bright blue text */
+}
+
+[data-theme="dark"] #quote *,
+[data-theme="dark"] .smallcard #quote * {
+  color: #60a5fa !important;
+  background: transparent !important;
+}
+
+/* Fix 3: Remove underline borders below tab headings */
+[data-theme="dark"] .tab-content h2,
+[data-theme="dark"] .tab-content h3,
+[data-theme="dark"] .tab-content hr,
+.tab-content border-b,
+[data-theme="dark"] [class*="border-b"] {
+  border-bottom: none !important;
+}
+
+[data-theme="dark"] hr {
+  border-top: 1px solid #334155 !important;
+  border-bottom: none !important;
+}
+
+.tab-content p, .tab-content li, .tab-content span, .tab-content div, .tab-content small, .tab-content em {
+  border-bottom: none !important;
+  text-decoration: none !important;
+}
+
+.tab-content header, .tab-content h2, .tab-content h3 {
+  border-bottom: 1px solid #334155 !important;
+}
+
+
+/* Fix Badge Colors in Dark Mode */
+[data-theme="dark"] .badge {
+  background-color: #1e293b !important;
+  border: 1px solid #334155 !important;
+}
+
+[data-theme="dark"] .badge span {
+  color: #60a5fa !important;
+}
+
+/* Strip Rogue Underline Lines from List Items and Subtext */
+.tab-content li, 
+.tab-content small, 
+.tab-content p, 
+.tab-content span {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+/* --- CLEAN TAB STYLING --- */
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block !important;
+}
+
+.tab-btn {
+  background-color: #f1f5f9 !important;
+  border: 1px solid #cbd5e1 !important;
+  border-radius: 8px !important;
+  padding: 10px 24px !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  color: #334155 !important;
+  outline: none !important;
+  transition: all 0.2s ease !important;
+}
+
+.tab-btn.active {
+  background-color: rgb(2, 2, 83) !important;
+  color: #ffffff !important;
+  border-color: rgb(2, 2, 83) !important;
+}
+
+/* --- CLEAN SEPARATION: LIGHT & DARK MODE --- */
+
+/* Default Light Mode Card & Border Styles */
+.card {
+    background-color: whitesmoke !important;
+    border: 1px solid #e1e4e8 !important;
+    border-radius: 20px !important;
+    padding: 20px 24px !important;
+    margin-top: 24px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
+    height: 100% !important;
+}
+
+/* Remove unwanted lines above headings in light mode */
+.card h2, .tab-content h2 {
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+}
+
+/* Dark Mode Specific Overrides */
+[data-theme="dark"] .card, 
+[data-theme="dark"] .tab-content.card {
+  background-color: #1e1e1e !important;
+  border: 1px solid #333333 !important;
+  color: #e2e8f0 !important;
+}
+
+[data-theme="dark"] h1, 
+[data-theme="dark"] h2,
+[data-theme="dark"] h3 {
+  color: #60a5fa !important;
+  border-bottom: none !important;
+}
+
+[data-theme="dark"] a {
+  border-bottom: none !important;
+}
+[data-theme="dark"] p, 
+[data-theme="dark"] span, 
+[data-theme="dark"] li, 
+[data-theme="dark"] small {
+  color: #cbd5e1 !important;
 }

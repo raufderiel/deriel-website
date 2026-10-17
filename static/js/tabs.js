@@ -1,28 +1,28 @@
-document.addEventListener("DOMContentLoaded", function() {
-  const btnSeeking = document.getElementById('btn-seeking');
-  const btnEducation = document.getElementById('btn-education');
-  const seekingSec = document.getElementById('seeking');
-  const educationSec = document.getElementById('education');
+document.addEventListener('click', function (e) {
+  const btn = e.target.closest('[data-tab]');
+  if (!btn) return;
 
-  if (!btnSeeking || !btnEducation) return;
+  e.preventDefault();
+  const targetId = btn.getAttribute('data-tab');
 
-  btnSeeking.addEventListener('click', function() {
-    seekingSec.classList.add('active-block');
-    seekingSec.classList.remove('active-flex');
-    
-    educationSec.classList.remove('active-flex', 'active-block');
-
-    btnSeeking.classList.add('active');
-    btnEducation.classList.remove('active');
+  // 1. Hide all tab content panels
+  document.querySelectorAll('.tab-content').forEach(function (content) {
+    content.classList.remove('active');
+    content.style.display = 'none';
   });
 
-  btnEducation.addEventListener('click', function() {
-    educationSec.classList.add('active-block');
-    educationSec.classList.remove('active-flex');
-
-    seekingSec.classList.remove('active-block', 'active-flex');
-
-    btnEducation.classList.add('active');
-    btnSeeking.classList.remove('active');
+  // 2. Remove 'active' class from all tab buttons
+  document.querySelectorAll('[data-tab]').forEach(function (b) {
+    b.classList.remove('active');
   });
+
+  // 3. Show the selected content panel
+  const targetContent = document.getElementById(targetId);
+  if (targetContent) {
+    targetContent.classList.add('active');
+    targetContent.style.removeProperty('display');
+  }
+
+  // 4. Mark clicked button as active
+  btn.classList.add('active');
 });
