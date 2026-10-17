@@ -112,6 +112,7 @@ header .tc-l {
 }
 
 #name {
+  margin-top: 0 !important;
   margin-bottom: 15px !important;
 }
 
@@ -237,7 +238,7 @@ header .tc-l {
   gap: 8px !important;
   margin: 0 !important;
   margin-left: 10px !important;
-  transform: translateY(3px) !important;
+  transform: translateY(-5px) !important;
 }
 
 .badge {
