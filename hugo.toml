@@ -1,4 +1,4 @@
-baseURL = 'https://raufderiel.github.io/'
+baseURL = 'https://deriel.github.io/'
 locale = 'en-us'
 title = 'Rauf Deriel'
 theme = 'ananke'
