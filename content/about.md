@@ -12,19 +12,13 @@ omit_header_text = true
         <div class="card" style="flex: 1; min-width: 0;">
             <div class="namerow">
                 <h1 id="name">Rauf Deriel</h1>
-                <div class="badge-group">
-                    <div class="badge"><span>Salafi</span></div>
-                    <div class="badge"><span>Student of knowledge</span></div>
-                    <div class="badge"><span>Dā‘ī</span></div>
+                <div class="smallcard" id="quote">
+                    <span><i>"Be in this world as if you are a stranger or a wayfarer." (Al-Bukhāri)</i></span>
                 </div>
             </div>
             <div style="text-align: left;">
-                <div class="info-row">
-                    <div class="smallcard" id="quote">
-                        <span><i>"Be in this world as if you are a stranger or a wayfarer." (Al-Bukhāri)</i></span>
-                    </div>
-                </div>
-                <div class="info-row"><strong>Residence</strong> / Indonesia</div>
+                <div class="info-row"><i>A Salafi layman — not righteous — lover of knowledge and yearns for it, & aspiring Dā‘ī.</i></div>
+                <div class="info-row"><strong>Origin</strong> / Indonesia</div>
                 <div class="info-row" id="lang">
                     <strong>Languages</strong> /
                     <span>🇮🇩 Bahasa Indonesia</span>
@@ -35,8 +29,8 @@ omit_header_text = true
                     <div class="socials-label"><strong>Socials</strong></div>
                     <div class="socials-icons">
                         <a href="mailto:raufderiel@gmail.com">
-                            <svg width="auto" height="22px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill="currentColor"fill-rule="evenodd" clip-rule="evenodd" d="M3.75 5.25L3 6V18L3.75 18.75H20.25L21 18V6L20.25 5.25H3.75ZM4.5 7.6955V17.25H19.5V7.69525L11.9999 14.5136L4.5 7.6955ZM18.3099 6.75H5.68986L11.9999 12.4864L18.3099 6.75Z" fill="#080341"/>
+                            <svg width="22px" height="22px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M3.75 5.25L3 6V18L3.75 18.75H20.25L21 18V6L20.25 5.25H3.75ZM4.5 7.6955V17.25H19.5V7.69525L11.9999 14.5136L4.5 7.6955ZM18.3099 6.75H5.68986L11.9999 12.4864L18.3099 6.75Z" fill="#080341"/>
                             </svg>
                         </a>   
                         <a href="https://www.youtube.com/@RaufDeriel" target="_blank" rel="noopener">
@@ -66,258 +60,295 @@ omit_header_text = true
 <div id="seeking" class="tab-content active card">
     <h2>Seeking Knowledge</h2>
     <p>A brief overview on his path of seeking authentic Islamic knowledge.</p>
-    <div class="card-row">
-        <div class="card">
+    <div class="tabs">
+        <button type="button" class="subtab-btn active" data-subtab="memory">Memorization</button>
+        <button type="button" class="subtab-btn" data-subtab="scholars">Scholars</button>
+        <button type="button" class="subtab-btn" data-subtab="books">Books</button>
+    </div>
+        <div id="memory" class="subtab-content active card" style="display: block;">
             <h2>Memorization</h2>
-            <small>
-            <ul>
-                <li>
-                    <strong>Qur'ān</strong><br>
-                    20 Juz' (Hafṣ)
-                </li>
-                <li>
-                    <strong>Ḥadīth</strong>
+            <p>An overview of his memorization skills and progress.</p>
+                <div class="card">
+                    <h3>Qur'ān</h3>
+                    <p>The Saying of Allāh and the Eternal Miracle.</p>
+                    <p><strong>20 Juz'</strong> — <small>in the riwāyāt of Hafṣ, the qirā'āt of ‘Āṣim.</small></p>
+                    <i>1 Juz' in 2022.<br>5 Ajzā' by 2024.<br>20 Juz' by 2026.</i>
+                </div>
+                <div class="card">
+                    <h3>Ḥadīth</h3>
+                    <p>The wise and noble sayings of the Prophet ﷺ.</p>
                     <ol>
                         <li>An-Nawawi's Forty Ḥadīth <small>and Ibn Rajab's Addition</small></li>
-                        <li>‘Umdat Al-Aḥkām (No. 101 - 180)<br><small><i>(by Al-Maqdisi)</i></small></li>
+                        <li>‘Umdat Al-Aḥkām (No. 101 - 180) <small><i>(by Al-Maqdisi)</i></small></li>
                     </ol>
-                </li>
-                <li>
-                    <strong>Texts of Knowledge</strong>
+                    <i>Both in the course of one year.</i>
+                </div>
+                <div class="card">
+                    <h3>Texts (Mutūn)</h3>
+                    <p>The knowledge of the great scholars who have preceded us, in short, compiled books.</p>
                     <ol>
-                        <li>Nawāqiḍ Al-Islām <br><small><i>(by Muhammad At-Tamīmi)</i></small></li>
-                        <li>Qawā'id Al-'Arba‘ <br><small><i>(by Muhammad At-Tamīmi)</i></small></li>
-                        <li>Uṣūl Ath-Thalāthah <br><small><i>(by Muhammad At-Tamīmi)</i></small></li>
-                        <li>Ṭuḥfat Al-Aṭfāl <br><small><i>(by Sulayman Al-Jamzūri)</i></small></li>
-                        <li>Shurūṭ Aṣ-Ṣalāḥ <br><small><i>(by Muhammad At-Tamīmi)</i></small></li>
-                        <li>Kitāb At-Tawḥīd <br><small><i>(by Muhammad At-Tamīmi)</i></small></li>
-                        <li>Manẓūmah Al-Bayqūniyyah <br><small><i>(by Al-Bayqūni)</i></small></li>
+                        <li>Nawāqiḍ Al-Islām <small><i>(by Muhammad At-Tamīmi)</i></small></li>
+                        <li>Qawā'id Al-'Arba‘ <small><i>(by Muhammad At-Tamīmi)</i></small></li>
+                        <li>Uṣūl Ath-Thalāthah <small><i>(by Muhammad At-Tamīmi)</i></small></li>
+                        <li>Ṭuḥfat Al-Aṭfāl <small><i>(by Sulāyman Al-Jamzūri)</i></small></li>
+                        <li>Shurūṭ Aṣ-Ṣalāḥ <small><i>(by Muhammad At-Tamīmi)</i></small></li>
+                        <li>Kitāb At-Tawḥīd <small><i>(by Muhammad At-Tamīmi)</i></small></li>
+                        <li>Manẓūmah Al-Bayqūniyyah <small><i>(by Al-Bayqūni)</i></small></li>
                     </ol>
-                </li>
-            </ul>
-            </small>
+                    <i>Over the course of a single academic year.</i>
+                </div>
         </div>
-        <div class="card">
-            <h2>Scholars Studied From</h2>
-            <small>
-            <ol>
-                <li>Sheikh Dr. ‘Abd Al-Muhsin ibn Muhammad Al-Qāsim <br><i><small>Imām & Khatīb at the Prophet's Mosque</small></i></li>
-                <li>Sheikh Saeed Hassan <br><i><small>Graduate of the Imam Muhammad ibn Saud Islamic University</small></i></li>
-                <li>Ustādh ‘Abd Al-‘Azīz Al-Haqqān <br><i><small>Graduate of the Islamic University of Medina</small></i></li>
-                <li>Ustādh Dr. (H.C.) Fachrudin Nu'man, Lc, MA <br><i><small>Graduate of the Islamic University of Medina</small></i></li>
-                <li>Ustādh Dr. Abdullah Roy, Lc, MA <br><i><small>Graduate of the Islamic University of Medina</small></i></li>
-                <li>Ustādh Aang Ruyani, Lc, MA <br><i><small>Graduate of the Jakarta Institute of Islamic and Arabic Sciences</small></i></li>
-                <li>Ustādh Ashlah Ghifari, BA, MA <br><i><small>Graduate of Umm Al-Qura University</small></i></li>
-                <li>Ustādh Kifaa Hul Banna, Lc  <br><i><small>Graduate of the Islamic University of Medina</small></i></li>
-                <li>Ustādh Alfian Nashih Ulwan, BA <br><i><small>Graduate of the International University of Africa</small></i></li>
-                <li>Ustādh Soval Yunus, BA <br><i><small>Graduate of the Jakarta Institute of Islamic and Arabic Sciences</small></i></li>
-                <li>Ustādh Ridwan Syahrudin, Lc, MA <br><i><small>Graduate of the Jakarta Institute of Islamic and Arabic Sciences</small></i></li>
-                <li>Ustādh Isfaul Choiry <br><i><small>Graduate of the Imam Syafi'i College of Islamic Studies</small></i></li>
-                <li>Ustādh Alvi Rahmatullah <br><i><small>Graduate of the Imam Syafi'i College of Islamic Studies</small></i></li>
-                <li>Ustādh Rofi Hanif Firjatullah <br><i><small>Graduate of the Imam Syafi'i College of Islamic Studies</small></i></li>
-                <li>Ustādh Asep Seppudin</li>
-                <li>Ustādh Sarman Hidayat</li>
-                <li>Ustādh Taufik Ismail</li>
-            </ol>
-            </small>
+        <div id="scholars" class="subtab-content card">
+                <h2>Scholars Studied From</h2>
+                <p>A comprehensive list of scholars he has, or is receiving knowledge from.</p>
+                <div class="card">
+                    <h2>Foreign Scholars</h2>
+                    <ol>
+                        <li>Sheikh Dr. <strong>‘Abd Al-Muhsin ibn Muhammad Al-Qāsim</strong> | <i>Imām & Khatīb at the Prophet's Mosque</i></li>
+                        <li>Sheikh <strong>Saeed Hassan</strong> | <i>Graduate of the Imam Muhammad ibn Saud Islamic University</i></li>
+                        <li>Ustādh <strong>‘Abd Al-‘Azīz Al-Haqqān</strong> | <i>Graduate of the Islamic University of Medina</i></li>
+                    </ol>
+                </div>
+                <div class="card">
+                    <h2>Local Scholars of Foreign Graduates</h2>
+                    <ol>
+                        <li>Ustādh Dr. (H.C.) <strong>Fachrudin Nu'man</strong>, Lc., MA | <i>Graduate of the Islamic University of Medina</i></li>
+                        <li>Ustādh Dr. <strong>Abdullah Roy</strong>, Lc., MA | <i>Graduate of the Islamic University of Medina</i></li>
+                        <li>Ustādh <strong>Ashlah Ghifari</strong>, BA, MA | <i>Graduate of Umm Al-Qura University</i></li>
+                        <li>Ustādh <strong>Kifaa Hul Banna</strong>, Lc. | <i>Graduate of the Islamic University of Medina</i></li>
+                    </ol>
+                </div>
+                <div class="card">
+                    <h2>Local Scholars</h2>
+                    <ol>
+                        <li>Ustādh <strong>Aang Ruyani</strong>, Lc., MA | <i>Graduate of the Jakarta Institute of Islamic and Arabic Sciences</i></li>
+                        <li>Ustādh <strong>Ridwan Syahrudin</strong>, Lc., MA | <i>Graduate of the Jakarta Institute of Islamic and Arabic Sciences</i></li>
+                        <li>Ustādh <strong>Alfian Nashih Ulwan</strong>, BA | <i>Graduate of the International University of Africa</i></li>
+                        <li>Ustādh <strong>Soval Yunus</strong>, BA | <i>Graduate of the Jakarta Institute of Islamic and Arabic Sciences</i></li>
+                        <li>Ustādh <strong>Wahyu Alauzai</strong>, BA | <i>Graduate of the Zad College of Quranic Studies</i></li>
+                        <li>Ustādh <strong>Baihaqi</strong>, BA | <i>Graduate of the Zad College of Quranic Studies</i></li>
+                        <li>Ustādh <strong>Isfaul Choiry</strong>, B.Ed. | <i>Graduate of the Imam Syafi'i College of Islamic Studies</i></li>
+                        <li>Ustādh <strong>Alvi Rahmatullah</strong>, B.Ed. | <i>Graduate of the Imam Syafi'i College of Islamic Studies</i></li>
+                        <li>Ustādh <strong>Rofi Hanif Firjatullah</strong>, B.Ed. | <i>Graduate of the Imam Syafi'i College of Islamic Studies</i></li>
+                        <li>Ustādh <strong>Arta Sulaiman</strong>, B.Ed. | <i>Graduate of Ar-Raayah College of Arabic Language Studies</i></li>
+                        <li>Ustādh <strong>Muhammad Khaerul Hadi</strong>, B.Ed. | <i>Graduate of Ar-Raayah College of Arabic Language Studies</i></li>
+                        <li>Ustādh <strong>Abdul Malik</strong>, B.Ed. | <i>Graduate of Ar-Raayah College of Arabic Language Studies</i></li>
+                        <li>Ustādh <strong>Muhammad Toha</strong>, B.Ed., MA</li>
+                        <li>Ustādh <strong>Jihad Arrosyad</strong>, Lc.</li>
+                        <li>Ustādh <strong>Asep Seppudin</strong>, Lc.</li>
+                        <li>Ustādh <strong>Sarman Hidayat</strong>, B.Ed.</li>
+                        <li>Ustādh <strong>Taufik Ismail</strong>, B.Ed.</li>
+                    </ol>
+                </div> 
         </div>
-        <div class="card">
+        <div id="books" class="subtab-content card">
             <h2>Books Studied</h2>
-            <small>
-            <ul>
-                <li>
-                    <strong>Āqīdah (Creed)</strong>
-                    <ol>
-                        <li>Uṣūl Ath-Thalāthah <br><small><i>(by Muhammad At-Tamīmi)</i></small></li>
-                        <li>Talkhiṣ Uṣūl Al-Īmān<br><small><i>(summary by Ashlah Ghifari, original by Al-Lajnah Ad-Dā'imah)</i></small></li>
-                        <li>Al Jadīd, exp. of Kītāb At-Tawhīd<br><small><i>(by Al-Qar‘awi)</i></small></li>
-                        <li>Qawā'id Al-'Arba‘ <br><small><i>(by Muhammad At-Tamīmi)</i></small></li>
-                        <li>Ma‘ārij Al-Qabūl exp. of Sullam Al-Wuṣūl<br><small><i>(by Ḥāfiẓ ibn Aḥmad Al-Ḥakami)</i></small></li>
-                    </ol>
-                </li>
-                <li>
-                    <strong>Manhaj (Methodology)</strong>
-                    <ol>
-                        <li>Kun Salafiyyan<br><small><i>(by ‘Abd As-Salām As-Suḥaymi)</i></small></li>
-                        <li>Al-'Amr bi Al-Ittiba‘ wa An-Nahy ‘an Al-Ibtida‘<br><small><i>(by As-Suyūṭi)</i></small></li>
-                    </ol>
-                </li>
-                <li>
-                    <strong>Fiqh (Jurisprudence)</strong>
-                    <ol>
-                        <li>Al-Fiqh Al-Muyassar<br><small><i>(by Al-Lajnah Ad-Dā'imah)</i></small></li>
-                        <li>Al-Qawā'id Al-Fiqhiyyah<br><small><i>(by As-Sa‘di)</i></small></li>
-                        <li>Al-'Uṣūl min ‘Ilm Al-'Uṣūl<br><small><i>(by Al-‘Uthaymīn)</i></small></li>
-                        <li>I‘ānaṭ Aṭ-Ṭālib fī Bidāyati ‘Ilmil Farā'iḍ<br><small><i>(by Sayyid Aḥmad ibn Yūsuf)</i></small></li>
-                    </ol>
-                </li>
-                <li>
-                    <strong>Hadīth</strong>
+            <p>A preview of books he has, or is studying, along with the corresponding fields.</p>
+                    <div class="card">
+                        <h3>‘Āqīdah (Creed)</h3>
+                        <p>The core beliefs of Islām.</p>
                         <ol>
-                            <li>Taysīr Al-‘Allam, exp. of ‘Umdat Al-Aḥkām<br><small><i>(by Al-Bassām)</i></small></li>
-                            <li>Riyādh Aṣ-Ṣāliḥīn<br><small><i>(by An-Nawawi)</i></small></li>
-                            <small>
-                                <li>At-Ta‘liqāt Al-Athariyyah, exp. of Al-Bayqūniyyah<br><i>(by ‘Ali Al-Ḥalabi)</i></li>
-                            </small>
-                            <li>Taysīr Muṣṭalaḥil Ḥadīth<br><small><i>(by Maḥmūd Aṭ-Ṭaḥḥān)</i></small></li>
+                        <li>Uṣūl Ath-Thalāthah <small><i>(by Muhammad At-Tamīmi)</i></small></li>
+                        <li>Talkhiṣ Uṣūl Al-Īmān <small><i>(summary by Ashlah Ghifari, original by Al-Lajnah Ad-Dā'imah)</i></small></li>
+                        <li>Al Jadīd, <i>exp. of</i> Kītāb At-Tawhīd <small><i>(by Al-Qar‘awi)</i></small></li>
+                        <li>Qawā'id Al-'Arba‘ <small><i>(by Muhammad At-Tamīmi)</i></small></li>
+                        <li>Ma‘ārij Al-Qabūl <i>exp. of</i> Sullam Al-Wuṣūl <small><i>(by Ḥāfiẓ ibn Aḥmad Al-Ḥakami)</i></small></li>
+                    </ol>
+                    </div>
+                   <div class="card">
+                        <h3>Manhāj (Methodology)</h3>
+                        <p>Following the guide of the righteous predecessors, the Salaf Aṣ-Ṣālih.</p>
+                        <ol>
+                            <li>Kun Salafiyyan <small><i>(by ‘Abd As-Salām As-Suḥaymi)</i></small></li>
+                            <li>Al-'Amr bi Al-Ittiba‘ wa An-Nahy ‘an Al-Ibtida‘ <small><i>(by As-Suyūṭi)</i></small></li>
                         </ol>
-                </li>
-            </ul>
-            </small>
+                   </div>
+                   <div class="card">
+                        <h3>Fiqh (Jurisprudence)</h3>
+                        <p>The proper way of performing acts of worship.</p>
+                        <ol>
+                            <li>Al-Fiqh Al-Muyassar <small><i>(by Al-Lajnah Ad-Dā'imah)</i></small></li>
+                            <li>Al-Qawā'id Al-Fiqhiyyah <small><i>(by As-Sa‘di)</i></small></li>
+                            <li>Al-'Uṣūl min ‘Ilm Al-'Uṣūl <small><i>(by Al-‘Uthaymīn)</i></small></li>
+                            <li>I‘ānaṭ Aṭ-Ṭālib fī Bidāyati ‘Ilmil Farā'iḍ <small><i>(by Sayyid Aḥmad ibn Yūsuf)</i></small></li>
+                        </ol>
+                   </div>
+                   <div class="card">
+                        <h3>Ḥadīth</h3>
+                        <p>A deep dive into the sciences related to the sayings of the Prophet ﷺ.</p>
+                            <ol>
+                                <li>Taysīr Al-‘Allam, <i>exp. of</i> ‘Umdat Al-Aḥkām <small><i>(by Al-Bassām)</i></small></li>
+                                <li>Riyādh Aṣ-Ṣāliḥīn <small><i>(by An-Nawawi)</i></small></li>
+                                <li>At-Ta‘liqāt Al-Athariyyah, <i>exp. of</i> Al-Bayqūniyyah <i>(by ‘Ali Al-Ḥalabi)</i></li>
+                                <li>Taysīr Muṣṭalaḥil Ḥadīth <small><i>(by Maḥmūd Aṭ-Ṭaḥḥān)</i></small></li>
+                            </ol>
+                   </div>
         </div>
-    </div>
 </div>
 <div id="education" class="tab-content card">
     <h2>Education Profile</h2>
     <p>A brief overview on his overall educational background and related achievements.</p>
-    <div class="card-row">
-        <div class="card">
-            <h2>Education</h2>
-            <h3>Formal</h3>
-            <ol>
-                <li><strong>Senior High School</strong></li>
+    <div class="tabs">
+        <button type="button" class="subtab-btn active" data-subtab="school">Education</button>
+        <button type="button" class="subtab-btn" data-subtab="achieve">Achievements</button>
+    </div>
+        <div id="school" class="card subtab-content active">
+            <h2>Education History</h2>
+            <p>A timeline of his educational environment over the years.</p>
+            <div class="card">
+                <h2>Formal</h2>
+                <h3>Senior High School</h3>
                 <ul>
                     <li>
                         <strong>Riyadhussholihiin Islamic Boarding School <a href="https://riyadhussholihiin.or.id/"><img src="/images/popup.svg" width="10px" height="10px"></a></strong>
                         <small>2025 - </small><br>
-                        <small><i>Pandeglang, Indonesia</i></small><br>
+                        <i>Pandeglang, Indonesia</i>
                     </li>
                 </ul>
-                <li><strong>Junior High School</strong></li>
+                <h3>Junior High School</h3>
                 <ul>
                     <li>
                         <strong>Widya Cendekia Integrated Islamic School <a href="https://widyacendekia.sch.id/"><img src="/images/popup.svg" width="10px" height="10px"></a></strong>
                         <small>2023 - 2025</small><br>
-                        <small><i>Serang, Indonesia</i></small><br>
+                        <i>Serang, Indonesia</i>
                     </li>
                     <li>
                         <strong>Anak Panah Cyberschool <a href="https://anakpanah.sch.id/"><img src="/images/popup.svg" width="10px" height="10px"></a></strong>
                         <small>2022 - 2023</small><br>
-                        <small><i>Tangerang, Indonesia</i></small><br>
+                        <i>Tangerang, Indonesia</i>
                     </li>
                 </ul>
-                <li><strong>Elementary</strong></li>
+                <h3>Elementary</h3>
                 <ul>
                     <li>
                         <strong>EvFiA Land School <a href="https://www.evfialandschool.sch.id/"><img src="/images/popup.svg" width="10px" height="10px"></a></strong>
                         <small>2015 - 2022</small><br>
-                        <small><i>Serang, Indonesia</i></small><br>
+                        <i>Serang, Indonesia</i>
                     </li>
                 </ul>
-                <li><strong>Kindergarten</strong></li>
+                <h3>Kindergarten</h3>
+                <ul>
+                    <li>
+                        <strong>Iqra' Integrated Islamic Kindergarten <a href="https://iqraschoolserang.com/"><img src="/images/popup.svg" width="10px" height="10px"></a></strong>
+                        <small>2014 - 2015</small><br>
+                        <i>Serang, Indonesia</i>
+                    </li>
+                </ul>
+            </div>
+            <div class="card">
+                <h2>Non-Formal</h2>
+                <ul>
+                    <li>
+                        <strong>Alhazen Academy <a href="https://alhazen.academy/"><img src="/images/popup.svg" width="10px" height="10px"></a></strong><small> 2022 - 2025</small><br>
+                        <i>HTML, CSS, and Phyton coding classes</i>
+                    </li>
+                    <li>
+                        <strong>CreativKids <a href="https://ck.world/"><img src="/images/popup.svg" width="10px" height="10px"></a></strong><small> 2014 - 2019</small><br>
+                        <i>LEGO and EV3 Robotics classes</i>
+                    </li>
+                </ul>               
+            </div>
+        </div>
+        <div id="achieve"class="card subtab-content">
+            <h2>Achievements</h2>
+            <p>A compiled list of his most prestigous achievements.</p>
+            <div class="card">
+                <h3>Formal</h3>
+                <ul>
+                    <li>
+                        <strong>Muslim EduFest </strong><small>2026</small><br>
+                        <small><i>PULDAPII</i></small><br>
+                        <strong style="color:goldenrod">1<sup>st</sup> </strong>
+                        <small>English Speech Competition</small>
+                    </li>
+                    <li>
+                        <strong>Arabic Language Olympiad </strong><small>2026</small><br>
+                        <small><i>Arabic Language Teachers' Forum</i></small><br>
+                        <strong style="color:rgb(205,127,50)">4<sup>th</sup> </strong><small>Banten</small><br>
+                        <strong style="color:gray">2<sup>nd</sup> </strong><small>Pandeglang</small><br>
+                    </li>
+                    <li>
+                        <strong>Islamic Studies Olympiad </strong><small>2024</small><br>
+                        <small><i>Directorate General of Islamic Studies</i></small><br>
+                        <strong style="color:rgb(205,127,50)">6<sup>th</sup> </strong><small>National</small><br>
+                        <strong style="color:goldenrod">1<sup>st</sup> </strong><small>Banten</small><br>
+                        <strong style="color:goldenrod">1<sup>st</sup> </strong><small>Serang</small>
+                    </li>
+                    <li>
+                        <strong>Social Studies Olympiad </strong><small>2025</small><br>
+                        <small><i>Faculty of Social Sciences Education — UPI</i></small><br>
+                        <strong style="color:rgb(205,127,50)">9<sup>th</sup> </strong><small>(Group) National</small>
+                    </li>
+                    <li>
+                        <strong>Spelling Bee </strong><small>2019 / 2025</small><br>
+                        <small><i>English First</i></small><br>
+                        <strong style="color:rgb(205,127,50)">3<sup>rd</sup> </strong><small>Banten — Group D, 2025</small><br>
+                        <strong style="color:goldenrod">1<sup>st</sup> </strong><small>Banten — Group B, 2019</small>
+                    </li>
+                    <li>
+                        <strong>English Festival </strong><small>Serang, 2024</small><br>
+                        <small><i>English Language Teachers' Forum</i></small><br>
+                        <strong style="color:goldenrod">1<sup>st</sup> </strong><small>Student's Talk</small>
+                    </li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Non-Formal</h3>
+                <ul>
+                    <li>
+                        <strong>Hamza Test (TOAFL) Screening </strong><small>2026</small><br>
+                        <small><i>King Salman Global Academy for Arabic Language</i></small><br>
+                        <strong style="color:goldenrod">C1 </strong><small>Advanced</small>
+                    </li>
+                    <li>
+                        <strong>Munaqasyah Exam </strong><small>Serang, 2021</small><br>
+                        <small><i>TPA LPPTKA BKPRMI</i></small><br>
+                        <strong style="color:goldenrod">1<sup>st</sup></strong><small> Rank</small>
+                    </li>
+                    <li>
+                        <strong>LEGO/Robotics Competitions</strong><br>
+                        <small><i>LEGO</i></small><br>
+                        <strong style="color:goldenrod">1<sup>st</sup></strong><strong> Creativity</strong><small> — National, 2015</small><br>
+                        <strong style="color:goldenrod">1<sup>st</sup></strong><strong> Creativity</strong><small> — Cilegon, 2015</small><br>
+                        <strong style="color:goldenrod">1<sup>st</sup></strong><strong> Creativity</strong><small> — Serang, 2014</small><br>
+                        <strong style="color:rgb(205,127,50)">3<sup>rd</sup></strong><strong> Creativity</strong><small> — Cilegon, 2019</small><br>
+                        <strong style="color:rgb(205,127,50)">4<sup>th</sup></strong><strong> Creativity</strong><small> — Serang, 2014</small><br>
+                        <strong style="color:rgb(205,127,50)">Best Performance</strong><strong> Construction</strong><small> (Group) — Banten, 2018</small>
+                    </li>
+                </ul>
+            </div>
+                <div class="card">
+                    <h3>Internal</h3>
                     <ul>
                         <li>
-                            <strong>Iqra' Integrated Islamic Kindergarten <a href="https://iqraschoolserang.com/"><img src="/images/popup.svg" width="10px" height="10px"></a></strong>
-                            <small>2014 - 2015</small><br>
-                            <small><i>Serang, Indonesia</i></small><br>
+                            <strong>Riyadhussholihiin Islamic Boarding School</strong><br>
+                            <small><i>Second Grand Competition, 2026</i></small><br>
+                            <strong style="color:goldenrod">1<sup>st</sup></strong><small> Memorization of Kitāb At-Tawhīd <small><i>(by Muhammad At-Tamīmī)</i></small></small><br>
+                            <strong style="color:gray">2<sup>nd</sup></strong><small> English Speech</small><br>
+                            <small><i>Qur'an Memorization Exam</i></small><br>
+                            <strong style="color:goldenrod">98</strong><small> 10 Ajzā', Sep 2025</small><br>
+                            <small><i>Monthly Speech Competition, 2025</i></small><br>
+                            <strong style="color:goldenrod">1<sup>st</sup></strong><small> Indonesian Speech</small><br>
+                            <small><i>Qur'an Memorization Competition</i></small><br>
+                            <strong style="color:goldenrod">1<sup>st</sup></strong><small> 5 Ajzā', Q3 2025</small><br>
+                            <strong style="color:gray">2<sup>nd</sup></strong><small> 5 Ajzā', Q4 2025</small><br>
+                        </li><br>
+                        <li>
+                            <strong>Widya Cendekia Integrated Islamic School</strong><br>
+                            <small><i>Qur'an Completion Event, 2025</i></small><br>
+                            <strong style="color:goldenrod">Best Participant</strong><small> Memorization of Ajzā' 27, 28</small><br>
+                            <small><i>Qur'an Completion Event, 2024</i></small><br>
+                            <strong style="color:goldenrod">Best Participant</strong><small> Memorization of Ajzā' 29, 30</small><br>
+                            <small><i>Level 1 Competition (Scout Movement), 2024</i></small><br>
+                            <strong style="color:goldenrod">Overall Champion</strong><small> (Group)</small><br>
+                            <strong style="color:goldenrod">1<sup>st</sup> </strong><small>General and Scouting Knowledge</small>
+                        </li><br>
+                        <li>
+                            <strong>Other</strong><br>
+                            <strong style="color:goldenrod">Best Participant</strong><small><i> — Babul Hidayah Mosque Intensive Islamic Short Course, 2016</i></small>
                         </li>
                     </ul>
-            </ol>
-            <h3>Non-Formal</h3>
-            <ul>
-                <li>
-                    <strong>Alhazen Academy <a href="https://alhazen.academy/"><img src="/images/popup.svg" width="10px" height="10px"></a></strong><small> 2022 - 2025</small><br>
-                    <small>HTML, CSS, and Phyton coding classes</small>
-                </li>
-                <li>
-                    <strong>CreativKids <a href="https://ck.world/"><img src="/images/popup.svg" width="10px" height="10px"></a></strong><small> 2014 - 2019</small><br>
-                    <small>LEGO and EV3 Robotics classes</small>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
-        <div class="card">
-            <h2>Achievements</h2>
-            <h3>Formal</h3>
-            <ul>
-                <li>
-                    <strong>Muslim EduFest </strong><small>2026</small><br>
-                    <small><i>PULDAPII</i></small><br>
-                    <strong style="color:goldenrod">1<sup>st</sup> </strong>
-                    <small>English Speech Competition</small>
-                </li>
-                <li>
-                    <strong>Arabic Language Olympiad </strong><small>2026</small><br>
-                    <small><i>Arabic Language Teachers' Forum</i></small><br>
-                    <strong style="color:rgb(205,127,50)">4<sup>th</sup> </strong><small>Banten</small><br>
-                    <strong style="color:gray">2<sup>nd</sup> </strong><small>Pandeglang</small><br>
-                </li>
-                <li>
-                    <strong>Islamic Studies Olympiad </strong><small>2024</small><br>
-                    <small><i>Directorate General of Islamic Studies</i></small><br>
-                    <strong style="color:rgb(205,127,50)">6<sup>th</sup> </strong><small>National</small><br>
-                    <strong style="color:goldenrod">1<sup>st</sup> </strong><small>Banten</small><br>
-                    <strong style="color:goldenrod">1<sup>st</sup> </strong><small>Serang</small>
-                </li>
-                <li>
-                    <strong>Social Studies Olympiad </strong><small>2025</small><br>
-                    <small><i>Faculty of Social Sciences Education — UPI</i></small><br>
-                    <strong style="color:rgb(205,127,50)">9<sup>th</sup> </strong><small>(Group) National</small>
-                </li>
-                <li>
-                    <strong>Spelling Bee </strong><small>2019 / 2025</small><br>
-                    <small><i>English First</i></small><br>
-                    <strong style="color:rgb(205,127,50)">3<sup>rd</sup> </strong><small>Banten — Group D, 2025</small><br>
-                    <strong style="color:goldenrod">1<sup>st</sup> </strong><small>Banten — Group B, 2019</small>
-                </li>
-                <li>
-                    <strong>English Festival </strong><small>Serang, 2024</small><br>
-                    <small><i>English Language Teachers' Forum</i></small><br>
-                    <strong style="color:goldenrod">1<sup>st</sup> </strong><small>Student's Talk</small>
-                </li>
-            </ul>
-            <h3>Non-Formal</h3>
-            <ul>
-                <li>
-                    <strong>Hamza Test (TOAFL) Screening </strong><small>2026</small><br>
-                    <small><i>King Salman Global Academy for Arabic Language</i></small><br>
-                    <strong style="color:goldenrod">C1 </strong><small>Advanced</small>
-                </li>
-                <li>
-                    <strong>Munaqasyah Exam </strong><small>Serang, 2021</small><br>
-                    <small><i>TPA LPPTKA BKPRMI</i></small><br>
-                    <strong style="color:goldenrod">1<sup>st</sup></strong><small> Rank</small>
-                </li>
-                <li>
-                    <strong>LEGO/Robotics Competitions</strong><br>
-                    <small><i>LEGO</i></small><br>
-                    <strong style="color:goldenrod">1<sup>st</sup></strong><strong> Creativity</strong><small> — National, 2015</small><br>
-                    <strong style="color:goldenrod">1<sup>st</sup></strong><strong> Creativity</strong><small> — Cilegon, 2015</small><br>
-                    <strong style="color:goldenrod">1<sup>st</sup></strong><strong> Creativity</strong><small> — Serang, 2014</small><br>
-                    <strong style="color:rgb(205,127,50)">3<sup>rd</sup></strong><strong> Creativity</strong><small> — Cilegon, 2019</small><br>
-                    <strong style="color:rgb(205,127,50)">4<sup>th</sup></strong><strong> Creativity</strong><small> — Serang, 2014</small><br>
-                    <strong style="color:rgb(205,127,50)">Best Performance</strong><strong> Construction</strong><small> (Group) — Banten, 2018</small>
-                </li>
-            </ul>
-            <h3>Internal</h3>
-            <ul>
-                <li>
-                    <strong>Riyadhussholihiin Islamic Boarding School</strong><br>
-                    <small><i>Second Grand Competition, 2026</i></small><br>
-                    <strong style="color:goldenrod">1<sup>st</sup></strong><small> Memorization of Kitāb At-Tawhīd <small><i>(by Muhammad At-Tamīmī)</i></small></small><br>
-                    <strong style="color:gray">2<sup>nd</sup></strong><small> English Speech</small><br>
-                    <small><i>Qur'an Memorization Exam</i></small><br>
-                    <strong style="color:goldenrod">98</strong><small> 10 Ajzā', Sep 2025</small><br>
-                    <small><i>Monthly Speech Competition, 2025</i></small><br>
-                    <strong style="color:goldenrod">1<sup>st</sup></strong><small> Indonesian Speech</small><br>
-                    <small><i>Qur'an Memorization Competition</i></small><br>
-                    <strong style="color:goldenrod">1<sup>st</sup></strong><small> 5 Ajzā', Q3 2025</small><br>
-                    <strong style="color:gray">2<sup>nd</sup></strong><small> 5 Ajzā', Q4 2025</small><br>
-                </li><br>
-                <li>
-                    <strong>Widya Cendekia Integrated Islamic School</strong><br>
-                    <small><i>Qur'an Completion Event, 2025</i></small><br>
-                    <strong style="color:goldenrod">Best Participant</strong><small> Memorization of Ajzā' 27, 28</small><br>
-                    <small><i>Qur'an Completion Event, 2024</i></small><br>
-                    <strong style="color:goldenrod">Best Participant</strong><small> Memorization of Ajzā' 29, 30</small><br><br>
-                    <small><i>Level 1 Competition (Scout Movement), 2024</i></small><br>
-                    <strong style="color:goldenrod">Overall Champion</strong><small> (Group)</small><br>
-                    <strong style="color:goldenrod">1<sup>st</sup> </strong><small>General and Scouting Knowledge</small>
-                </li><br>
-                <li>
-                    <strong>Other</strong><br>
-                    <strong style="color:goldenrod">Best Participant</strong><small><i> — Babul Hidayah Mosque Intensive Islamic Short Course, 2016</i></small>
-                </li>
-            </ul>
-        </div>
-    </div>
 </div>
